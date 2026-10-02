@@ -1,10 +1,12 @@
 # Sandaru Wijewardhana
 
-**Kubernetes control plane · Go · Platform engineering**
+**Kubernetes · Go · software engineering**
 
-I work on correctness bugs in Kubernetes and the tooling around it — the kind CI does not catch on its own: goroutines that can never be woken, state that outlives a teardown, controllers that never converge. That usually means reading a component's shutdown path or a controller's reconcile loop and checking whether the invariant it assumes actually holds.
+I am passionate about contributing to Kubernetes and the other infrastructure I run every day, especially the kind of bug CI cannot catch on its own goroutines that can never be woken controllers that never converge.
 
-Software engineering intern at [WSO2](https://wso2.com), building Go operators on Kubernetes. BSc Eng (Hons) in Computer Engineering, University of Peradeniya.
+I build and run **BayWork** ([baywork.lk](https://baywork.lk)), a multi-tenant ERP SaaS for vehicle service stations written and operated alone, in production with paying customers. During my WSO2 internship I built a Kubernetes registry operator in Go that provisions a private Harbor registry per namespace.
+
+Software engineering intern at [WSO2](https://wso2.com). BSc Eng (Hons) in Computer Engineering, University of Peradeniya.
 
 ### Merged upstream
 
