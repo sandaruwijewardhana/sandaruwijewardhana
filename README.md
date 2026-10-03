@@ -21,7 +21,6 @@ Software engineering intern at [WSO2](https://wso2.com). BSc Eng (Hons) in Compu
 ### Open
 
 - **[kubernetes/kubernetes #141850](https://github.com/kubernetes/kubernetes/pull/141850)** — end-to-end goroutine leak check on Go 1.27's leak profile, across the API server, kubelets, controller-manager and scheduler. It found the leaks fixed in #141955.
-- **[kubernetes/kubernetes #142189](https://github.com/kubernetes/kubernetes/pull/142189)** — stops the Deployment controller creating ReplicaSets indefinitely when a feature gate is disabled while a pod template field is still in use.
 - **[helm/helm #32568](https://github.com/helm/helm/pull/32568)** — fixed provenance key loss in concatenated keyrings caused by `armor.Decode` reading past a block boundary.
 - **[thunder-id/thunderid #5206](https://github.com/thunder-id/thunderid/pull/5206)** — separated unknown from empty attribute profiles in consent filtering to stop redundant prompts.
 
